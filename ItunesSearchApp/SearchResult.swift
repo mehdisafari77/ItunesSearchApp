@@ -19,5 +19,16 @@ class SearchResult {
         
         let itemDescription = json["itemDescription"]
         let price = json["trackPrice"]
+        
+        self.artistName = artistName
+        self.trackName = trackName
+        
+        if let trackP = price as? Double {
+            self.trackPrice = trackP
+        }
+        
+        if let d = itemDescription as? String {
+            self.itemDescription = d
+        }
     }
 }

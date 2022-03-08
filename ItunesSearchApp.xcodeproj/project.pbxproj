@@ -14,6 +14,7 @@
 		B56D55F827D70DF100877325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B56D55F727D70DF100877325 /* Assets.xcassets */; };
 		B56D55FB27D70DF100877325 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B56D55F927D70DF100877325 /* LaunchScreen.storyboard */; };
 		B56D560327D70E2000877325 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D560227D70E2000877325 /* SearchResult.swift */; };
+		B56D560527D70F6A00877325 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56D560427D70F6A00877325 /* SearchResultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B56D55FA27D70DF100877325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B56D55FC27D70DF100877325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B56D560227D70E2000877325 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		B56D560427D70F6A00877325 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				B56D55F927D70DF100877325 /* LaunchScreen.storyboard */,
 				B56D55FC27D70DF100877325 /* Info.plist */,
 				B56D560227D70E2000877325 /* SearchResult.swift */,
+				B56D560427D70F6A00877325 /* SearchResultsController.swift */,
 			);
 			path = ItunesSearchApp;
 			sourceTree = "<group>";
@@ -144,6 +147,7 @@
 				B56D55F327D70DF000877325 /* ViewController.swift in Sources */,
 				B56D55EF27D70DF000877325 /* AppDelegate.swift in Sources */,
 				B56D560327D70E2000877325 /* SearchResult.swift in Sources */,
+				B56D560527D70F6A00877325 /* SearchResultsController.swift in Sources */,
 				B56D55F127D70DF000877325 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
